@@ -1,0 +1,30 @@
+{
+  "name": "MUSIXBLVD",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "auth0-js": "^9.8.1",
+    "native-base": "^2.8.1",
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-native-elements": "^0.19.1",
+    "react-native-grid-component": "^1.1.0",
+    "react-native-modal": "^6.5.0",
+    "react-native-search-bar": "^3.4.2",
+    "react-navigation": "^2.18.2",
+    "wpapi": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.2",
+    "babel-preset-react-native": "^5",
+    "jest": "23.5.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
